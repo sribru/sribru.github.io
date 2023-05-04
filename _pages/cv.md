@@ -29,12 +29,12 @@ Work experience
   
 Skills
 ======
-* <u>Software Skills</u>
-* Skill 2
+* \textbf{Software Skills} 
+* \textbf{Hardware Skills} 
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* \textbf{Technical Skills} 
 
 <!-- Publications
 ======
