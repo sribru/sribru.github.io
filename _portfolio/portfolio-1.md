@@ -1,6 +1,6 @@
 ---
 title: "Prediction of Air Quality through Greenhouse Gas Emissions"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+excerpt: "Short description of portfolio item number 1<br/><img src='/images/mlai arch.jpg'>"
 collection: portfolio
 ---
 
@@ -8,7 +8,7 @@ Prediction of Air Quality through Greenhouse Gas Emissions.
 
 Greenhouse gases from human activities are the most significant drivers of observed climate change since the mid-20th century. The mid-20th century has seen been accompanied by rapid industrialization and urbanization leading to a rise in global temperatures and air pollutants. This rise in temperatures has been termed global warming by climate scientists. Several climatologists and scientists are actively pursuing to utilize machine learning techniques to develop accurate climate models and forecasts of the global atmosphere. Our study aims to construct a reliable statistical model to model the correlation between greenhouse gas emissions and global warming.
 
-<img src='/images/500x300.png'>
+<img src='/images/mlai arch.jpg'>
 
 Our study compared the performance of several mainstream machine learning algorithms on our data, which includes Support Vector Regression, Artificial Neural Networks, and Random Forest, to build a novel weather forecasting system. These algorithms were chosen based on their novelty in solving problems with non-linear, time-series datasets. The global greenhouse gas emission data for CH4, CO2, and N2O for the past four decades have been compiled and tabulated in public databases, by environmental agencies such as the National Oceanic and Atmospheric Administration and the United States Environmental Protection Agency. For our project, we only considered CH4 and CO2 datasets due to their long-range availability. Furthermore, the Global Temperature anomalies are found on the National Aeronautics and Space Administration (NASA) climate page. The core idea of our study is to forecast future Pittsburgh temperatures using the global Methane (CH4) and Carbon dioxide (CO2) emissions and global temperature anomalies as input features. This is performed as a univariate time-series data with monthly average temperatures and also on both gas emissions. First, the entire data is split according to the number of monthly values assigned for training the model and the number of monthly values assigned for testing. The split data is then used to predict future temperatures using a sliding window technique, where (n+1)th day’s temperature is predicted using the temperatures of the past n number of days. The future temperatures are predicted by developing a statistical model using the proposed machine learning algorithms.
 
@@ -16,5 +16,5 @@ We performed two experiments to test the accuracy of our model. First, we used a
 
 As a part of this project I utilised Machine Learning techniques like SVM, ANNs, and Random Forests to forecast the effect of Greenhouse Gas emissions on air quality in Pittsburgh. The idea was to predict how local temperatures are affected by global gas emissions and compare with other models (ANNs and SVM) generated with other memebers of my team.
 
-<img src='/images/500x300.png'>
+
 Our teamfound that random forest outperforms other algorithms to create accurate climate models. Our models use concentrations of different greenhouse gasses as features to precisely forecast the Pittsburgh atmosphere. The accuracy of our model was strongly reliant on the size of the sliding window. However, we observed that while the models were able to accurately predict the testing data, they failed when we were trying to forecast future temperatures. Among our three models, the best results were from using the Random Forest Regressor with a Mean Absolute Percentage Error of around 15.69%
