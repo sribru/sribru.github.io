@@ -7,7 +7,7 @@ collection: portfolio
 Prediction of Air Quality through Greenhouse Gas Emissions. 
 
 Greenhouse gases from human activities are the most significant drivers of observed climate change since the mid-20th century. The mid-20th century has seen been accompanied by rapid industrialization and urbanization leading to a rise in global temperatures and air pollutants. This rise in temperatures has been termed global warming by climate scientists. Several climatologists and scientists are actively pursuing to utilize machine learning techniques to develop accurate climate models and forecasts of the global atmosphere. Our study aims to construct a reliable statistical model to model the correlation between greenhouse gas emissions and global warming.
-<p align="center">
+
 <img align="center" width="400" height="400" src='/images/mlai arch.jpg'> 
  
 
