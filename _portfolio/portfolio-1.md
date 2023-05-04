@@ -17,7 +17,7 @@ Our study compared the performance of several mainstream machine learning algori
 We performed two experiments to test the accuracy of our model. First, we used a sliding window and used to directly predict future values. Second, the predicted temperature values are appended back to the dataset and are utilized for future predictions. The second approach to the testing was developed as we noticed that predicting the future beyond the available data requires adding the prediction back to the data and predicting based on the new data. Surprisingly, we observed our predictions were distinctly wrong. For SVR we found that We found that the MAPE for the first approach was around 7.32%. For the second approach, we found the MAPE to be very large around 37.77 %. Next for Random Forest, the testing gave us 7.56% MAPE, and the test on the data by adding the prediction back to the dataset to predict gave us 15.69% MAPE. In contradiction to our expectations, using Artificial Neural Networks showed worse performance. 
 
 <p align="center">
-<img width="400" height="400" src='/images/Global predict.jpg'> 
+<img width="400" height="400" src='/images/Global predict.png'> 
 </p>
 <br/>
 
