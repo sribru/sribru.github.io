@@ -29,7 +29,7 @@ Work experience
   
 Skills
 ======
-* <u>Software Skills<\u>
+* <u>Software Skills</u>
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
