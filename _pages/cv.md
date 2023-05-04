@@ -11,8 +11,12 @@ redirect_from:
 
 Education
 ======
+
+* M.S. in Mechancial Engineering, Carnegie Mellon University, 2024 (expected) 
+* <u>Coursework<\u>:Robot Localization and Mapping, Machine Learning and Artificial Intelligence, Linear Control Systems, Introduction
+to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making and Path Planning
 * B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, 2022 
-* M.S. in Mechancial Engineering, Carnegie Mellon University, 2024 (expected)
+* <u>Coursework<\u>: Mechatronic Systems, Automated Control Systems, Aircraft Stability and Control, Aircraft Aerodynamics
 
 
 Work experience
@@ -29,12 +33,29 @@ Work experience
   
 Skills
 ======
-* \textbf{Software Skills} 
-* \textbf{Hardware Skills} 
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* \textbf{Technical Skills} 
+* **Software Skills**
+  * Python ( OpenCV, Pytorch,Tensorflow, Pyspark)
+  * C++
+  * MATLAB
+  * Solidworks 
+  * R
+  * ROS
+  * Julia
+* **Hardware Skills** 
+  * Raspberry Pi
+  * Arduino 
+  * 3D printers
+* **Technical Skills**
+  * Computer Vision
+  * Control System Design
+  * Finite element Analysis (FEA)
+  * Machine Learning and AI
+  * Mechatronics System design
+  * Numerical Analysis
+  * Structural Analysis
+  * Simultaneous Localization and Mapping (SLAM)
+  * Space System Design
+  * Robot Dynamics
 
 <!-- Publications
 ======
@@ -56,4 +77,7 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Club Secretary, Space and Satellite Systems Club at UC Davis
+* Magnetorquer Sub System Lead, Space and Satellite Systems Club at UC Davis 
+* Suspension System Lead, RoveCrest at UC Davis
+  
