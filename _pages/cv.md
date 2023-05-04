@@ -11,32 +11,32 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, 2022 
+* M.S. in Mechancial Engineering, Carnegie Mellon University, 2024 (expected)
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Undergraduate Research Assistant at Laboratory for AI,Robotics and Automation (06/2021 - 06/2022)
+  * Univesirty of California Davis 
+  * Built telescopic retractable wing subsystem for power-efficient quadcopter drones increased with flight time.
+  * Performed structural and FEA analysis on new iterations of telescoping wing subsystem using Solidwork.
+  
+* Undergraduate Research Assistant at cyber human physical systems lab (03/2021 - 12/2021)
+  * Univesirty of California Davis
+  * Designed drones for environmental scientists to study the impact of wildfires on human health and gaseous pollutant concentration and quantitative aerosol distribution from burning events.
+  * Manufactured the air pollutant sensor compartment and landing legs of chassis for drone using Solidworks.
   
 Skills
 ======
-* Skill 1
+* <u>Software Skills<\u>
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -52,7 +52,7 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
