@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-You can download the cv from [here](https://drive.google.com/file/d/1TtX5DguqFk1_tS9T4r6O5Vffp0zy2l-b/view?usp=sharing)
+** You can download the cv from [here](https://drive.google.com/file/d/1TtX5DguqFk1_tS9T4r6O5Vffp0zy2l-b/view?usp=sharing)
+
 Education
 ======
 
