@@ -22,12 +22,10 @@ to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making an
 Work experience
 ======
 * Undergraduate Research Assistant at Laboratory for AI,Robotics and Automation (06/2021 - 06/2022)
-  * Univesirty of California Davis 
   * Built telescopic retractable wing subsystem for power-efficient quadcopter drones increased with flight time.
   * Performed structural and FEA analysis on new iterations of telescoping wing subsystem using Solidwork.
   
 * Undergraduate Research Assistant at cyber human physical systems lab (03/2021 - 12/2021)
-  * Univesirty of California Davis
   * Designed drones for environmental scientists to study the impact of wildfires on human health and gaseous pollutant concentration and quantitative aerosol distribution from burning events.
   * Manufactured the air pollutant sensor compartment and landing legs of chassis for drone using Solidworks.
   
@@ -55,7 +53,9 @@ Skills
   * Structural Analysis
   * Simultaneous Localization and Mapping (SLAM)
   * Space System Design
-  * Robot Dynamics
+  * Robot Dynamics 
+  * Vehicle Control
+  
 
 <!-- Publications
 ======
