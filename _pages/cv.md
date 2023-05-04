@@ -9,14 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+You can download the cv from [here](https://drive.google.com/file/d/1TtX5DguqFk1_tS9T4r6O5Vffp0zy2l-b/view?usp=sharing)
 Education
 ======
 
 * M.S. in Mechancial Engineering, Carnegie Mellon University, 2024 (expected) 
-* <u>Coursework</u>:Robot Localization and Mapping, Machine Learning and Artificial Intelligence, Linear Control Systems, Introduction
+  * <u>Coursework</u>:Robot Localization and Mapping, Machine Learning and Artificial Intelligence, Linear Control Systems, Introduction
 to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making and Path Planning
 * B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, 2022 
-* <u>Coursework</u>: Mechatronic Systems, Automated Control Systems, Aircraft Stability and Control, Aircraft Aerodynamics
+  * <u>Coursework</u>: Mechatronic Systems, Automated Control Systems, Aircraft Stability and Control, Aircraft Aerodynamics
 
 
 Work experience
@@ -54,7 +55,7 @@ Skills
   * Simultaneous Localization and Mapping (SLAM)
   * Space System Design
   * Robot Dynamics 
-  * Vehicle Control
+  * Vehicle Controls
   
 
 <!-- Publications
@@ -80,4 +81,5 @@ Service and leadership
 * Club Secretary, Space and Satellite Systems Club at UC Davis
 * Magnetorquer Sub System Lead, Space and Satellite Systems Club at UC Davis 
 * Suspension System Lead, RoveCrest at UC Davis
+  
   
