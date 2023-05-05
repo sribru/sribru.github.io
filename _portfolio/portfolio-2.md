@@ -13,7 +13,7 @@ Semantic alignment refers to the process of aligning the visual and caption feat
 alignment is incorporated through the addition of a tuner network trained on a contrastive loss with caption embeddings generated through a pre-trained Langugae Model.
 This Tuner is then placed before the video features are passed through the PDVC framework. 
 
-<img width ="400" height ="400" src='/images/PDV_arch.jpg'>
+<img width ="400" height ="400" src='/images/PDVC_arch.jpg'>
 
 The idea of using a tuner to semantically align visual and caption features was inspired from [Contrastive Language-Image Pre-Training (CLIP)]("https://github.com/openai/CLIP") is a powerful model that combines a large-scale transformer-based language model with a convolutional neural network (CNN) for visual processing and is centered on learning perception from supervision contained in natural language. CLIP jointly trains an image and text encoder for the occurrence of possible image-text pairings across a batch and during testing the learned text encoder synthesizes a zero-shot linear classifier by embedding the names ordescriptions of the target dataset’s classes. Since CLIP trains a text and image encoder simultaneously to align their embeddings, its text encoder is ideal for semantic alignment. 
 
