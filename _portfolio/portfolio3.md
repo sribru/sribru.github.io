@@ -1,5 +1,7 @@
 ---
-title: "Aircraft Control System"
-excerpt: "This project was a part of NASA Aeronautical Research Mission Design Competetion 2022<br/><img src='/images/mlai arch.jpg'>"
+title: "Unsupervised Map Registration Estimation From Multiple Point Clouds"
+excerpt: "This project was part of 16833: Robot Localization and Mapping<br/><img src='/images/DUCC.png'>"
 collection: portfolio
 ---
+
+Advances in deep learning have led to many state-of-theart methods for semantic computer vision tasks. Despite those successes, their compelling improvements on the geometric aspects of computer vision are yet to be fully demonstrated especially for registration and mapping. Several works attempt to integrate deep learning methods into geometric vision problems like mapping and registration asociated with point clouds. Currenrlty State of the Art (SOTA) programs achive this point cloud registration can using pairwise local approaches like [Iterative Closest Point (ICP)](https://cs.gmu.edu/~kosecka/cs685/cs685-icp.pdf) appraoch or global apparoaches involving fearture detectors like [NARF](http://ais.informatik.uni-freiburg.de/publications/papers/steder10irosws.pdf). However, for fusing information from multiple point clouds, these algorithms are used iteratively for each sensor reading,thereby accumulating the registration error which leads to incorrect cloud registration and iomahe mapping. To mitigate this,[DeepMapping](https://github.com/ai4ce/DeepMapping/tree/master/script), a novel registration framework using deep neural networks (DNNs) as auxiliary functions to align multiple point clouds from scratch to a globally consistent frame is porposed. While Deepmapping achieves state of the art results, there is still scope for improvment through addition of ICP as a warm start for the DNN. 
