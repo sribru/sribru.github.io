@@ -4,4 +4,17 @@ excerpt: "This project was a part of 11-785: Introduction to Deep Leanring<br/><
 collection: portfolio
 ---
 
-In recent years, there has been a large research focus on dense video captioning. Video captioning has applications in many fields such as autonomous driving, video surveillance and creating captions for those with visual impairments
+In recent years, there has been a large research focus on dense video captioning. Video captioning has applications in many fields such as autonomous driving, 
+video surveillance and creating captions for those with visual impairments. It can aid those with visual impairments, self-driving cars, caption surveillance 
+and even automatically labeling data. Providing meaningful captions videos not seen during training happens to a major hurdle faced by current state of the art 
+video captioning models. Current SOTA dense video captioning model, dense video captioning framework with parallel decoding (PDVC) produced strong results
+compared to other video captioning frameworks but can still be improved. In order to improve PDVC, the addition of semantic alignment holds much promise. 
+Semantic alignment refers to the process of aligning the visual and caption features such that they are similar in the embedding space. The proposed semanitic 
+alignment is incorporated through the addition of a tuner network trained on a contrastive loss with caption embeddings generated through a pre-trained Langugae Model.
+This Tuner is then placed before the video features are passed through the PDVC framework. 
+
+<img width ="400" height ="400" src='/images/modified pdvc.png'>
+
+
+The idea of using a tuner to semantically align visual and caption features was inspired from [Contrastive Language-Image Pre-Training (CLIP)](https://github.com/openai/CLIP).
+
