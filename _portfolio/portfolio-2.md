@@ -24,6 +24,10 @@ into the PDVC. Our hypothesis was that this tuner incorporate some information f
 addition, the overall PDVC framework is trained from scratch using YouCook2 to see whether some degree of semantic alignment was achieved. The performance of the model 
 is then evaluated with the same metrics as the PDVC baseline:BLEU4, METEOR, CIDEr, and SODA_c. 
 
+| Column 1 | Column 2 | Column 3 |
+| -------- | -------- | -------- |
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
 
 The table above shows the different ablation study each memeber of the team has run with different architectures.Each member ran ablations four architectures and fthe final score was computed by averaging idnividual scores. It was observed that Linear, Conv1 and Conv1 w/ Linear all outperform the baseline PDVC in at least three of the given metrics. In fact, Conv1 outperforms in all four metrics suggesting that it unilaterally improved the precision, recall and also the overall story telling capabilities of PDVC by 18.4%, 3.2% , 8% and 0.6% respectively.
 
