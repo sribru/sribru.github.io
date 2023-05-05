@@ -23,7 +23,7 @@ For the scope of our project, only CH4 and CO2 datasets were consdered due to th
 <br/>
 
 <p align="center">
-<img width="400" height="400" src='/images/mean_co2.jpg'> 
+<img width="400" height="400" src='/images/co2_data_mlo.png'> 
 </p>
 <br/>
 
@@ -34,4 +34,4 @@ As a part of this project I used Machine Learning techniques like SVM, ANNs, and
 </p>
 <br/>
 
-Our teamfound that random forest outperforms other algorithms to create accurate climate models. Our models use concentrations of different greenhouse gasses as features to precisely forecast the Pittsburgh atmosphere. The accuracy of our model was strongly reliant on the size of the sliding window. However, we observed that while the models were able to accurately predict the testing data, they failed when we were trying to forecast future temperatures. Among our three models, the best results were from using the Random Forest Regressor with a Mean Absolute Percentage Error of around 15.69%
+Our teamfound that random forest outperforms other algorithms to create accurate climate models. Our models use concentrations of different greenhouse gasses as features to precisely forecast the Pittsburgh atmosphere. The accuracy of our model was strongly reliant on the size of the sliding window. However, we observed that while the models were able to accurately predict the testing data, they failed when we were trying to forecast future temperatures. Among our three models, the best results were from using the Random Forest Regressor with a Mean Absolute Percentage Error of around 15.69%. 
