@@ -24,8 +24,9 @@ into the PDVC. Our hypothesis was that this tuner incorporate some information f
 addition, the overall PDVC framework is trained from scratch using YouCook2 to see whether some degree of semantic alignment was achieved. The performance of the model 
 is then evaluated with the same metrics as the PDVC baseline:BLEU4, METEOR, CIDEr, and SODA_c. 
 
+
 | Architecture | BLEU4 | METEOR | CIDER | SODA_c |
-| -------- | -------- | -------- | ------- |
+| -------- | -------- | -------- | -------- | -------- |
 |Baseline | 0.76 ± 0.05  | 4.39 ± 0.07 |20.68 ± 0.21 |4.47 ± 0.87 | 
 |Linear | 0.87 ± 0.06| 4.74 ± 0.09 |21.76 ± 0.04| 4.45 ± 1.13 |
 |Conv1 | 0.90 ± 0.02 |4.53 ± 0.07 |22.32 ± 0.05| 4.50 ± 1.48 |
