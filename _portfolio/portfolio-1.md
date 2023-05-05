@@ -1,7 +1,6 @@
 ---
 title: "Prediction of Air Quality through Greenhouse Gas Emissions"
-excerpt: "This project was a part of my 24-787: Artificial Intelligence and Machine Learning for Engineers <br/> 
-<img width="400" height="400" src='/images/mlai arch.jpg'>"
+excerpt: "This project was a part of my 24-787: Artificial Intelligence and Machine Learning for Engineers <br/> <img src='/images/Architecture_mlai.jpg'>"
 collection: portfolio
 ---
 
