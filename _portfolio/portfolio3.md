@@ -12,7 +12,9 @@ Advances in deep learning have led to many state-of-theart methods for semantic 
 The localization is perfomed using a Localization Network (L-net) which involves extracting features from individual light Detection and Ranging (LiDAR) outputs, transforming them to global coordinates, and performing point cloud registration while fusing multiple sensors.The L-Net consists of a latent feature extraction module followed by a multi-layer perceptron (MLP) that outputs a sensor pose. For organised point cloud convolutional neural network (CNN) to extract
 the feature vector of point cloud followed by a global pooling layer to aggregate local features to a global one. On the otherhand, for unorganized point cloud data, point clouds are extracted using PointNet. A combination of MLP and global pooling layer is used to aggregate all the features and output a final feature vector with a dimension equal to the sensor’s degree of freedom. To associate points between each point cloud, Chamfer distance is used as minimized this improves the pairwise alignment. The point cloud registration output is then fed to another MLP network for generating an occupancy grip mapby assigning probabilities to each cell optimized using Binary Cross Entropy (BCE) loss. Furthermore, All of our experiments were performed on the 2D synthetic dataset and the 3D Active Vision dataset  and evaluated usingAbsolute Trajectory Error(ATE) as a metric similar to DeepMapping. 
 
-![](/images/deep mapping 2d.jpg)![](/images/deep mapping avd.jpg)
+<img width ='400' height='400' src='/images/deep mapping 2d.jpg'>
+
+<img width ='400' height='400' src='/images/deep mapping avd.jpg'>
 *Point cloud registration using DeepMapping for 2D and AVD dataset* 
 
 Me and my team conducted several experiments with potential to improve upon DeepMapping and reduce Absolute Trajectory Error (ATE): 
@@ -20,10 +22,10 @@ Me and my team conducted several experiments with potential to improve upon Deep
 * The original Deep Mapping model was trained on the 2D synthetic dataset and the 3D Active Vision dataset. This was repeated using the Iterative Closest Point(ICP) Algorithm. Two diffreent variants of ICP were used especially point-to-point and point-to-plane variations to perform comparative analysis. The general observation was that DeepMapping outperformed both variants of ICP by a large margin. In general registration with Point-to-point ICP gave an ATE value 12 times the ATE value of DeepMapping. Simultaneously, registration with Point-to-plane ICP gave an ATE value 3.18 times the value of DeepMapping. 
 
 
-<img width ='400' height='400' src='/images/ICP 2D.jpg'>
+<img src='/images/ICP 2D.jpg'>
 *Point cloud registration using ICP point-to-point and point-to-plane*
 
-<img width ='400' height='400' src='/images/ICP AVD.jpg'>
+<img src='/images/ICP AVD.jpg'>
 *Point cloud registration using ICP point-to-point and point-to-plane*
 
 * Generally, Random initialization will cause the Deep Learning model to take a longer time to converge.A possible method to reduce this convergence time was using the results from Incremental ICP to act as a coarse initialization starting point. With such a warm start, our model will converge faster also more stable than starting from scratch. We observed that this warm start method produced a ATE value 27% less than baseline ATE value proving our hypothesis right.
