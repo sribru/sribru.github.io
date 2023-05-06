@@ -18,6 +18,7 @@ the feature vector of point cloud followed by a global pooling layer to aggregat
 Me and my team conducted several experiments with potential to improve upon DeepMapping and reduce Absolute Trajectory Error (ATE): 
 
 * The original Deep Mapping model was trained on the 2D synthetic dataset and the 3D Active Vision dataset. This was repeated using the Iterative Closest Point(ICP) Algorithm. Two diffreent variants of ICP were used especially point-to-point and point-to-plane variations to perform comparative analysis. The general observation was that DeepMapping outperformed both variants of ICP by a large margin. In general registration with Point-to-point ICP gave an ATE value 12 times the ATE value of DeepMapping. Simultaneously, registration with Point-to-plane ICP gave an ATE value 3.18 times the value of DeepMapping. 
+
 ![](/images/ICP 2D.jpg)
 *Point cloud registration using ICP point-to-point and point-to-plane*
 
