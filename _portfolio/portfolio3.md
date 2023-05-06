@@ -36,7 +36,7 @@ Me and my team conducted several experiments with potential to improve upon Deep
 
 * Given the recent success of PointNet with global feature extraction for point cloud classification and segmentation and achieving permutation invariance while feature extraction of the point cloud, we hyopothesized that it would be worthwhile to experiment by replacing the Localization Network’s(L_Net’s) feature extractor of the Deep Mapping pipeline with the PointNet feature extractor while keeping the rest of the training pipeline same. This experiment was able to achieve an Absolute Trajectory Error of 19.305 and a BCE+CH loss of 0.0316 after 3000 epochs of training, these results are comparable to the results we got using the ICP Point-to-Place implementation. While according to our hypothesis, our method should perform better, it instead resulted in an ATE value which was 2.74 % larger than baseline ATE value.
 
-![](/images/m_net_slam.jpg)
+<img src='/images/m_net_slam.jpg'>
 *Point cloud registration when M_net is replaced by traditional SLAM methods*
 
 
