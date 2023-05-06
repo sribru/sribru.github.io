@@ -15,6 +15,7 @@ the feature vector of point cloud followed by a global pooling layer to aggregat
 <img width ='400' height='400' src='/images/deep mapping 2d.jpg'>
 
 <img width ='400' height='400' src='/images/deep mapping avd.jpg'>
+
 *Point cloud registration using DeepMapping for 2D and AVD dataset* 
 
 Me and my team conducted several experiments with potential to improve upon DeepMapping and reduce Absolute Trajectory Error (ATE): 
