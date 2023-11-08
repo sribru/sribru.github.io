@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my directly cv from [here](https://drive.google.com/file/d/1TtX5DguqFk1_tS9T4r6O5Vffp0zy2l-b/view?usp=sharing)
+You can download my cv from [here](https://drive.google.com/file/d/1MHvRbLA8N-ZEX3Pt7fz8x8PqL0c2QPHK/view?usp=sharing)
 
 Education
 ======
@@ -23,6 +23,12 @@ to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making an
 
 Work experience
 ======
+* Hardware Software Integration Intern – Monarch Tractor Inc. , Livermore, CA  (Summer 2023)
+  * Creating cohesion between the software of multi-architecture distributed computer systems and the hardware like Jetson Orin AGX and     Jetson Orin NX.
+  * Supported development of test beds to check the drop-in Controller Area Network(CAN) connection in vehicles.
+  * Built an interface to simulate ROS-to-CAN messages and test communication between different components on the vehicle using CANalyzer tools.
+  * Conducted FMEA and risk assessment analysis for custom boards with compact computing Modules. 
+
 * Undergraduate Research Assistant at Laboratory for AI,Robotics and Automation (06/2021 - 06/2022)
   * Built telescopic retractable wing subsystem for power-efficient quadcopter drones increased with flight time.
   * Performed structural and FEA analysis on new iterations of telescoping wing subsystem using Solidwork.
