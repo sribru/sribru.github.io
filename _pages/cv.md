@@ -14,10 +14,10 @@ You can download my cv from [here](https://drive.google.com/file/d/1MHvRbLA8N-ZE
 Education
 ======
 
-* M.S. in Mechancial Engineering, Carnegie Mellon University, 2024 (expected) 
+* M.S. in Mechancial Engineering, Carnegie Mellon University, Dec 2023 
   * <u>Coursework</u>:Robot Localization and Mapping, Machine Learning and Artificial Intelligence, Linear Control Systems, Introduction
 to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making and Path Planning
-* B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, 2022 
+* B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, June 2022 
   * <u>Coursework</u>: Mechatronic Systems, Automated Control Systems, Aircraft Stability and Control, Aircraft Aerodynamics
 
 
