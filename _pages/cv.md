@@ -41,10 +41,10 @@ Skills
 ======
 * **Software Skills**
   * Python ( OpenCV, Pytorch,Tensorflow, Pyspark)
-  * C++
+  * C++ ( OpenGL, Data Structures, Object Programming) 
   * MATLAB
   * Solidworks 
-  * R
+  * R 
   * ROS
   * Julia
 * **Hardware Skills** 
