@@ -20,9 +20,17 @@ to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making an
 * B.S. in Mechanical and Aerospace Engineering, Univesirty of California Davis, June 2022 
   * <u>Coursework</u>: Mechatronic Systems, Automated Control Systems, Aircraft Stability and Control, Aircraft Aerodynamics
 
-
 Work experience
 ======
+
+* Principal Engineer Autonomy – Oshkosh Corporation, Pittsburgh, PA  (Jan 2024 - Present)          
+  * Responsible for developing and testing new features for the L3 autonomy stack and on vehicle testing and Integration.
+  * Improved the EKF localization feature for improved accuracy and validating performance through simulation testing.
+  * Designed and developed Request to Intervene (RTI) feature to enable driver intervention for safe on-road autonomy.
+  * Evaluated new hardware platforms and compared their performance to NVIDIA Jetson systems with autonomy stack.
+  * Supported Vehicle Remote Operation Algorithm Development and installation and autonomy stack integration.
+  * Testing and validating Thermal and Stereo Cameras for obstacle and object detection during autonomous driving 
+
 * Hardware Software Integration Intern – Monarch Tractor Inc. , Livermore, CA  (Summer 2023)
   * Creating cohesion between the software of multi-architecture distributed computer systems and the hardware like Jetson Orin AGX and     Jetson Orin NX.
   * Supported development of test beds to check the drop-in Controller Area Network(CAN) connection in vehicles.
