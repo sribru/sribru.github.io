@@ -23,7 +23,7 @@ to Deep Learning, Optimum Control and Reinforcement Learning, Decision Making an
 Work experience
 ======
 
-* Principal Engineer Autonomy – Oshkosh Corporation, Pittsburgh, PA  (Jan 2024 - Present)          
+* Principal Engineer Autonomy – Oshkosh Corporation, Pittsburgh, PA  (01/2024 - Present)          
   * Responsible for developing and testing new features for the L3 autonomy stack and on vehicle testing and Integration.
   * Improved the EKF localization feature for improved accuracy and validating performance through simulation testing.
   * Designed and developed Request to Intervene (RTI) feature to enable driver intervention for safe on-road autonomy.
